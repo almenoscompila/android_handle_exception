@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ViewException">
+            <intent-filter>
+                <action android:name="com.almenoscompila.handleexception.ViewException" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ExceptionActivity"></activity>
     </application>
 
 </manifest>
